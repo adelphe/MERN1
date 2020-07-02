@@ -13,17 +13,17 @@ const Layout = ({ children }) => {
     const nav = () => (
         <ul className="nav nav-tabs bg-warning">
             <li className="nav-item">
-                <a className="nav-link text-dark" href="">
+                <a className="nav-link text-dark" href="/index">
                     Home
                 </a>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-dark" href="">
+                <a className="nav-link text-dark" href="/login">
                     Login
                 </a>
             </li>
             <li className="nav-item">
-                <a className="nav-link text-dark" href="">
+                <a className="nav-link text-dark" href="/register">
                     Register
                 </a>
             </li>
